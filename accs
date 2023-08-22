@@ -1,0 +1,38 @@
+{"err":
+    [
+        {"code":"001",
+            "desc":"Тут ошибка, если была"
+        }
+    ],
+"data":
+    {
+    "filedate": "2023-08-01T00:00:00",
+    "filetype": "accs",
+    "version": "1",
+    "accs":[
+        {
+            "filedate": "2023-08-01T00:00:00",
+            "filetype": "accs",
+            "version": "1",
+            "id":"2d07fb48-c216-11ea-80da-0cc47a1243f5", // id лицевого счета
+            "contractorid": "2d07fb48-c216-11ea-80da-0cc47a1243f5", // связь с таблицей контрагентов
+            "organisationid": "2d07fb48-c216-11ea-80da-0cc47a1243f5", // связь с таблицей организаций
+            "code": "620337521",
+            "kod_ls": "1 620337521",
+            "type": "1",
+            "name": "620337521",
+            "house_id": "00-006327",
+            "AddressReceipt": "No_Receipt",
+            "room": {
+                "num": "228",
+                "abbr": "228",
+                "type": "Квартира",
+                "area": "9",
+                "habarea": "0",
+                "people": "2",
+                "reg": "0",
+                "comp": "0"
+            }
+        }
+    ]}
+}
