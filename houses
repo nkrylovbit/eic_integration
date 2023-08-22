@@ -1,0 +1,34 @@
+{"err":
+    [
+        {"code":"001",
+            "desc":"Тут ошибка, если была"
+        }
+    ],
+"data":{
+    "filedate": "2023-08-01T00:00:00",
+    "filetype": "houses",
+    "version": "1",
+    "houses":[
+        {
+            "id":"2d07fb48-c216-11ea-80da-0cc47a1243f5",
+            "code": "00-006327",
+            "area": "1968",
+            "flats_area": "1968",
+            "common_area": "0",
+            "type": "Общежитие",
+            "year_of_built": "0",
+            "floors": "0",
+            "porches": "0",
+            "address": {
+                "index": "412163",
+                "region": "Саратовская обл",
+                "district": "Светлый ЗАТО",
+                "settlement": "Светлый",
+                "street": "Кузнецова",
+                "house": "5",
+                "address_view": "412163, Саратовская обл",
+                "address_view_full": "Саратовская обл"
+            }
+        }
+    ]}
+}
