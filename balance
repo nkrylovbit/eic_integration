@@ -1,0 +1,60 @@
+{
+    "err": [
+        {
+            "code": "001",
+            "desc": "Тут ошибка, если была"
+        }
+    ],
+    "data": 
+        {
+        "filedate": "2023-08-01T00:00:00",
+        "filetype": "balance",
+        "version": "1",
+        "balance":[
+            {
+                "filedate": "2023-08-01T00:00:00",
+                "filetype": "balance",
+                "version": "1",
+                "lkid":"2d07fb48-c216-11ea-80da-0cc47a1243f5", // id лицевого счета
+                "contractorid": "2d07fb48-c216-11ea-80da-0cc47a1243f5", // связь с таблицей контрагентов. Наверное, это поле лишнее
+                "organisationid": "2d07fb48-c216-11ea-80da-0cc47a1243f5", // связь с таблицей организаций. Наверное, это поле лишнее
+                "debt_beg": "1081.75",
+                "debt_end": "1081.75",
+                "debt_prev": "1081.75",
+                "prepayment": "0",
+                "sum_payed": "0",
+                "sum_payed_view": "0",
+                "credit_payed": "0",
+                "peni": "0",
+                "last_payment_date": "2023-07-26T00:00:00",
+                "sum_to_pay": "1081.75",
+                "barcode": [
+                    {
+                        "type": "code128",
+                        "value": "00620337521"
+                    },
+                    {
+                        "type": "qr",
+                        "value": "ST00012|Name=ООО \"ЕРЦ ЖКХ\"|PersonalAcc=40701810738000004936|BankName=ПАО Сбербанк|BIC=044525225|CorrespAcc=30101810400000000225|Sum=108175|PayeeINN=9701123085|lastName=Иванов|firstName=Иван|middleName=Иванович|payerAddress=412163, Саратовская обл|persAcc=620337521|paymPeriod=082023"
+                    }
+                ],
+                "service_debt": [
+                    {
+                        "groupid": "2d07fb48-c216-11ea-80da-0cc47a1243f5",
+                        "id": "7d6bfd65-f1a1-11ea-814e-000c29a982b0",
+                        "units": "м2",
+                        "debt_beg": "332.08",
+                        "debt_end": "332.08",
+                        "debt_view": "332.08",
+                        "peni": "0",
+                        "tarif": "32,03",
+                        "sum_payed": "0",
+                        "sum_payed_view": "0",
+                        "sum_to_pay": "332.08",
+                        "contractorid": "2d07fb48-c216-11ea-80da-0cc47a1243f5" // зачем контрагент, если есть ссылка на ЛК, который ссылается на контрагента?
+                        // опять же поле вряд ли отличается в рамках одного ЛК
+                    }
+                ]
+            }
+    ]}
+}
